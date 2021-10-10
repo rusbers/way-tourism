@@ -1,0 +1,132 @@
+.header__top {
+  // margin-bottom: 20px;
+  position: relative;
+  padding: 14px 0;
+
+  @media (min-width: 1200px) {
+    min-height: 70px;
+    padding: 19px 0;
+  }
+}
+
+.header__top-inner {
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__bottom {
+  @media (min-width: 768px) {
+    background-image: url("../../img/background/header/header-bg@1x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 85px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/header/header-bg@2x.jpg");
+    }
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 50px;
+  }
+}
+
+.header__bottom-inner {
+  @media (min-width: 1200px) {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.header__bottom-content {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 40%;;
+    align-items: flex-start;
+  }
+}
+
+.header__main-nav {
+  @media (max-width: 1199px) {
+    margin: 0 -15px;
+  }
+}
+
+.header__box {
+  padding-top: 20px;
+
+  @media (min-width: 768px) {
+    padding-top: 0;
+  }
+
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.header__text {
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: calc(27 / 16) !important;
+
+  @media (min-width: 768px) {
+    color: var(--white) !important;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+}
+
+.header__phone {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    flex-shrink: 0;
+    transition: color 0.5s;
+    &:hover {
+      color: var(--accent);
+    }
+
+    &::before {
+      background-color: currentColor !important;
+    }
+  }
+}
+
+.header__title {
+  background-color: var(--grey);
+  background-image: url("../../img/background/header/header-bg@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 -15px;
+  padding-top: 80px;
+  padding-bottom: 118px;
+  display: block;
+  background-position: center center;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/header/header-bg@2x.jpg");
+  }
+
+  @media (min-width: 768px) {
+    background: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    max-width: 400px;
+  }
+}

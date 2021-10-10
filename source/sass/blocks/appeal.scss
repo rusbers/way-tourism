@@ -1,0 +1,14 @@
+.appeal {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(34 / 18);
+  color: var(--font-color-special);
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    text-align: start;
+    font-size: 22px;
+    line-height: calc(34 / 22);
+  }
+}

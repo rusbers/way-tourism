@@ -1,0 +1,25 @@
+.label {
+  @media (min-width: 768px) {
+    width: 48%;
+  }
+}
+
+.label--obligatory {
+  position: relative;
+
+  &::before {
+    content: "*";
+    position: absolute;
+    font-size: 17px;
+    line-height: normal;
+    color: var(--accent);
+    z-index: 5;
+    left: 10px;
+    bottom: 5px;
+
+    @media (min-width: 768px) {
+      bottom: 0;
+      top: 10px;
+    }
+  }
+}

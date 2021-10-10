@@ -1,0 +1,66 @@
+.modal {
+  display: none;
+  z-index: 100;
+  box-shadow: 0px 4px 30px rgba(var(--rgb-dark), 0.1);
+
+  @media (min-width: 768px) {
+    width: 728px;
+    min-height: 445px;
+    background-color: var(--grey-2);
+    background-image: url("../../img/background/form/form-popup@1x.jpg");
+    background-size: 340px 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+}
+
+.modal--show {
+  display: block;
+}
+
+.modal__inner {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.modal__content {
+  padding: 50px 10px;
+  background-color: var(--white);
+  position: relative;
+
+  @media (min-width: 350px) {
+    padding: 50px 15px;
+  }
+
+  @media (min-width: 768px) {
+    width: 388px;
+    min-height: 445px;
+    background-color: var(--grey-2);
+  }
+}
+
+.modal__title {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  background-image: url("../../img/stack.svg#close-btn");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  padding: 0;
+}
+
+.modal__button {
+  width: 250px;
+}

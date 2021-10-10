@@ -1,0 +1,84 @@
+.page {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(28 / 16);
+  color: var(--font-color);
+  height: 100%;
+}
+
+.page__a11y-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.page__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.page__header {
+  margin-bottom: 80px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 200px;
+  }
+}
+
+.page__main {
+  flex: 1;
+  margin-bottom: 60px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+
+.page__places{
+  margin-bottom: 40px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 25px;
+    overflow-x: hidden;
+  }
+}
+
+.page__detailed-info {
+  margin-bottom: 60px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 80px;
+  }
+}
+
+.page__tours-info {
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
+}
+
+.page__overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(var(--rgb-black), 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+  z-index: 50;
+}
+
+.page__overlay--visible {
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease-in-out;
+}

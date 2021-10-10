@@ -1,0 +1,33 @@
+.form  {
+  @media (min-width: 1200px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+.form__inputs {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1200px) {
+    width: 100%;
+  }
+}
+
+.form__inputs--layout {
+  @media (min-width: 768px) {
+    flex-direction: column;
+
+    & .label {
+      width: 100%;
+    }
+  }
+}

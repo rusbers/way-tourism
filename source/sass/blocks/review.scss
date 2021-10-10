@@ -1,0 +1,194 @@
+.review {
+  // background-image: url("../../img/content/small-vp/Greece-small-vp.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    // background-image: url("../../img/background/review-bg-medium.jpg");
+  }
+
+  @media (min-width: 1200px) {
+    flex-grow: 1;
+    // background-image: url("../../img/background/review-bg-big.jpg");
+    background-size: 430px 100%;
+    background-position: left;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 595px;
+  }
+}
+
+.review--greece {
+  background-image: url("../../img/background/review/small-and-big-vp/Greece-small-vp@1x.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/review/small-and-big-vp/Greece-small-vp@2x.jpg");
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.9px) {
+    background-image: url("../../img/background/review/medium-vp/Greece-medium-vp@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/review/medium-vp/Greece-medium-vp@2x.jpg");
+    }
+  }
+}
+
+.review--albania {
+  background-image: url("../../img/background/review/small-and-big-vp/Albania-small-vp@1x.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/review/small-and-big-vp/Albania-small-vp@2x.jpg");
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.9px) {
+    background-image: url("../../img/background/review/medium-vp/Albania-medium-vp@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/review/medium-vp/Albania-medium-vp@2x.jpg");
+    }
+  }
+}
+.review--macedonia {
+  background-image: url("../../img/background/review/small-and-big-vp/Macedonia-small-vp@1x.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/review/small-and-big-vp/Macedonia-small-vp@2x.jpg");
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.9px) {
+    background-image: url("../../img/background/review/medium-vp/Macedonia-medium-vp@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/review/medium-vp/Macedonia-medium-vp@2x.jpg");
+    }
+  }
+}
+.review--montenegro {
+  background-image: url("../../img/background/review/small-and-big-vp/Montenegro-small-vp@1x.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/review/small-and-big-vp/Montenegro-small-vp@2x.jpg");
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.9px) {
+    background-image: url("../../img/background/review/medium-vp/Montenegro-medium-vp@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/review/medium-vp/Montenegro-medium-vp@2x.jpg");
+    }
+  }
+}
+.review--croatia {
+  background-image: url("../../img/background/review/small-and-big-vp/Croatia-small-vp@1x.jpg");
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/background/review/small-and-big-vp/Croatia-small-vp@2x.jpg");
+  }
+
+  @media (min-width: 768px) and (max-width: 1199.9px) {
+    background-image: url("../../img/background/review/medium-vp/Croatia-medium-vp@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/review/medium-vp/Croatia-medium-vp@2x.jpg");
+    }
+  }
+}
+
+.review__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+  padding: 30px 20px;
+  width: 268px;
+  transform: translateY(50px);
+  box-shadow: 0px 4px 30px rgba(var(--rgb-dark), 0.1);
+
+  @media (min-width: 768px) {
+    width: 380px;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 1200px) {
+    min-height: 370px;
+    transform: none;
+    margin: 30px 0;
+  }
+}
+
+.review__title {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  color: var(--font-color);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: var(--accent);
+    width: 80%;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (min-width: 768px) {
+      left: 0;
+      transform: none;
+      width: 60%;
+    }
+  }
+}
+
+.review__quote {
+  margin: 0;
+}
+
+.review__text {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.review__author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.review__pic {
+  display: flex;
+  margin-bottom: 10px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+}
+
+.review__user-img {
+  clip-path: circle(50% at 50% 50%);
+}

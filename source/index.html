@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Way</title>
+  <link rel="preload" crossorigin type="font/woff2" href="fonts/Montserrat-Regular.woff2" as="font">
+  <link rel="preload" crossorigin type="font/woff2" href="fonts/Montserrat-Medium.woff2" as="font">
+  <link rel="preload" crossorigin type="font/woff2" href="fonts/Montserrat-SemiBold.woff2" as="font">
+  <link rel="preload" crossorigin type="font/woff2" href="fonts/Montserrat-Bold.woff2" as="font">
+  <!-- to add favicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@5.3.6/dist/simplebar.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="page__body">
+  <header class="page__header header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="logo">
+            <img src="img/logo/logo.svg" width="58" height="22" alt="lorem">
+          </a>
+
+          <nav class="header__main-nav main-nav">
+            <button class="menu-toggle" hidden>
+              <span class="menu-toggle__line"></span>
+            </button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#Tours">About travel</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#Prices">Prices</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a class="header__phone phone phone--has_icon" href="tel:37370242411">+ 373 (70) 242 411</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <div class="header__bottom-content">
+            <h1 class="header__title title title--accent title--big">Travel to Europe</h1>
+            <div class="header__box">
+              <p class="header__text text">On this tour, you will discover Europe in a new light. Waiting for you: sea, mountains, as well as the stunning beauty of nature.</p>
+              <a class="button button--text_align button--has_icon" href="#Tours">See tour</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page__main content">
+    <section class="page__places places">
+      <div class="container">
+        <div class="places__header">
+          <h2 class="places__title title title--big title--has_decor">Places to visit</h2>
+          <p class="places__text text text--color_opacity-1">You can choose a full tour or a partial one, with a visit to the first 3 places</p>
+        </div>
+
+        <ul class="places__list">
+          <li class="places__item">
+            <a class="places__item-title title title--cart" href="#Greece">Greece</a>
+            <div class="places__item-button">
+              <a class="places__item-link" href="#Greece">see more</a>
+            </div>
+            <picture class="places__item-pic">
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Greece-big-vp@1x.webp 1x, img/content/carts/big-vp/Greece-big-vp@2x.webp 2x">
+              <source type="image/webp" srcset="img/content/carts/small-vp/Greece-small-vp@1x.webp 1x, img/content/carts/small-vp/Greece-small-vp@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Greece-big-vp@1x.jpg 1x, img/content/carts/big-vp/Greece-big-vp@2x.jpg 2x">
+              <img class="places__item-img" src="img/content/carts/small-vp/Greece-small-vp@1x.jpg" srcset="img/content/carts/small-vp/Greece-small-vp@2x.jpg 2x" width="288" height="425" alt="lorem">
+            </picture>
+          </li>
+          <li class="places__item">
+            <a class="places__item-title title title--cart" href="#Albania">Albania</a>
+            <div class="places__item-button">
+              <a class="places__item-link" href="#Albania">see more</a>
+            </div>
+            <picture class="places__item-pic">
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Albania-big-vp@1x.webp 1x, img/content/carts/big-vp/Albania-big-vp@2x.webp 2x">
+              <source type="image/webp" srcset="img/content/carts/small-vp/Albania-small-vp@1x.webp 1x, img/content/carts/small-vp/Albania-small-vp@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Albania-big-vp@1x.jpg 1x, img/content/carts/big-vp/Albania-big-vp@2x.jpg 2x">
+              <img class="places__item-img" src="img/content/carts/small-vp/Albania-small-vp@1x.jpg" srcset="img/content/carts/small-vp/Albania-small-vp@2x.jpg 2x" width="288" height="425" alt="lorem">
+            </picture>
+          </li>
+          <li class="places__item">
+            <a class="places__item-title title title--cart" href="#Macedonia">Macedonia</a>
+            <div class="places__item-button">
+              <a class="places__item-link" href="#Macedonia">see more</a>
+            </div>
+            <picture class="places__item-pic">
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Macedonia-big-vp@1x.webp 1x, img/content/carts/big-vp/Macedonia-big-vp@2x.webp 2x">
+              <source type="image/webp" srcset="img/content/carts/small-vp/Macedonia-small-vp@1x.webp 1x, img/content/carts/small-vp/Macedonia-small-vp@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Macedonia-big-vp@1x.jpg 1x, img/content/carts/big-vp/Macedonia-big-vp@2x.jpg 2x">
+              <img class="places__item-img" src="img/content/carts/small-vp/Macedonia-small-vp@1x.jpg" srcset="img/content/carts/small-vp/Macedonia-small-vp@2x.jpg 2x" width="288" height="425" alt="lorem">
+            </picture>
+          </li>
+          <li class="places__item">
+            <a class="places__item-title title title--cart" href="#Montenegro">Montenegro</a>
+            <div class="places__item-button">
+              <a class="places__item-link" href="#Montenegro">see more</a>
+            </div>
+            <picture class="places__item-pic">
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Montenegro-big-vp@1x.webp 1x, img/content/carts/big-vp/Montenegro-big-vp@2x.webp 2x">
+              <source type="image/webp" srcset="img/content/carts/small-vp/Montenegro-small-vp@1x.webp 1x, img/content/carts/small-vp/Montenegro-small-vp@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Montenegro-big-vp@1x.jpg 1x, img/content/carts/big-vp/Montenegro-big-vp@2x.jpg 2x">
+              <img class="places__item-img" src="img/content/carts/small-vp/Montenegro-small-vp@1x.jpg" srcset="img/content/carts/small-vp/Montenegro-small-vp@2x.jpg 2x" width="288" height="425" alt="lorem">
+            </picture>
+          </li>
+          <li class="places__item">
+            <a class="places__item-title title title--cart" href="#Croatia">Croatia</a>
+            <div class="places__item-button">
+              <a class="places__item-link" href="#Croatia">see more</a>
+            </div>
+            <picture class="places__item-pic">
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Croatia-big-vp@1x.webp 1x, img/content/carts/big-vp/Croatia-big-vp@2x.webp 2x">
+              <source type="image/webp" srcset="img/content/carts/small-vp/Croatia-small-vp@1x.webp 1x, img/content/carts/small-vp/Croatia-small-vp@2x.webp 2x">
+              <source media="(min-width: 1200px)" srcset="img/content/carts/big-vp/Croatia-big-vp@1x.jpg 1x, img/content/carts/big-vp/Croatia-big-vp@2x.jpg 2x">
+              <img class="places__item-img" src="img/content/carts/small-vp/Croatia-small-vp@1x.jpg" srcset="img/content/carts/small-vp/Croatia-small-vp@2x.jpg 2x" width="288" height="425" alt="lorem">
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="page__tours-info tours-info">
+      <section class="page__detailed-info detailed-info" id="Tours">
+        <div class="tabs">
+          <div class="tabs__container container">
+            <div class="tabs__triggers" hidden>
+              <a class="tabs__triggers-item tabs__triggers-item--active" href="#Greece">Greece</a>
+              <a class="tabs__triggers-item" href="#Albania">Albania</a>
+              <a class="tabs__triggers-item" href="#Macedonia">Macedonia</a>
+              <a class="tabs__triggers-item" href="#Montenegro">Montenegro</a>
+              <a class="tabs__triggers-item" href="#Croatia">Croatia</a>
+            </div>
+
+            <div class="tabs__content">
+
+              <div class="tabs__item tabs__item--active" id="Greece">
+                <div class="tabs__item-content">
+                  <h3 class="tabs__item-title title  title--big title--has_decor">Greece</h3>
+                  <div class="tabs__item-text text text--color_opacity-1">
+                    <p>In the north of Greece, there is one of the largest complexes of monasteries located on the tops of the cliffs. Its name "Meteora" literally translates as "hanging in the air." This monastery is the main goal of our trip in Greece. After the rocks of sandstone and detrital rock, reaching a height of 600 meters, have been excavated, the indescribable beauty of nature and the atmosphere that reigns in the monasteries of Meteora will be the reward.</p>
+                  </div>
+                  <a class="button button-popup" href="#">buy tour now</a>
+                </div>
+                <div class="tabs__item-review review review--greece">
+                  <div class="review__inner">
+                    <h4 class="page__a11y-hidden">Reviews about our tours in Greece</h4>
+                    <p class="review__title">Reviews</p>
+                    <blockquote class="review__quote">
+                      <p class="review__text text text--fz-smallest text--color_opacity-1">Meteora in Greece can only be compared with Montserratt in Spain. The same tall rocks. But here the scale is shocking. Huge territory, high in the mountains. The feeling is as if you are standing at the end of the world!</p>
+                      <div class="review__author">
+                        <picture class="review__pic">
+                          <img class="review__user-img" src="img/content/users/id100.jpg" width="38" height="38" alt="lorem">
+                        </picture>
+                        <cite class="review__author-cite">Elena Anghel</cite>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs__item" id="Albania">
+                <div class="tabs__item-content">
+                  <h3 class="tabs__item-title title  title--big title--has_decor">Albania</h3>
+                  <div class="tabs__item-text text text--color_opacity-1">
+                    <p>In Albania we will visit Ksamil Resort. This resort will amaze you with its clear waters and amazing beach. At first it seems that on the beach you are greeted by ordinary, though incredibly snow-white and too coarse sand. However, looking closely, you can understand that this is not sand, but stones, ground to such a fine state.</p>
+                  </div>
+                  <a class="button button-popup" href="#">buy tour now</a>
+                </div>
+                <div class="tabs__item-review review review--albania">
+                  <div class="review__inner">
+                    <h4 class="page__a11y-hidden">Reviews about our tours in Albania</h4>
+                    <p class="review__title">Reviews</p>
+                    <blockquote class="review__quote">
+                      <p class="review__text text text--fz-smallest text--color_opacity-1">A wonderful resort, definitely worth a visit. Next time I'll take my sister with me so that I can also taste all the beauties of nature :)</p>
+                      <div class="review__author">
+                        <picture class="review__pic">
+                          <img class="review__user-img" src="img/content/users/id101.jpg" width="38" height="38" alt="lorem">
+                        </picture>
+                        <cite class="review__author-cite">Simona Smith</cite>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs__item" id="Macedonia">
+                <div class="tabs__item-content">
+                  <h3 class="tabs__item-title title  title--big title--has_decor">Macedonia</h3>
+                  <div class="tabs__item-text text text--color_opacity-1">
+                    <p>In Macedonia, our goal will be to visit Plaosnik, which is located in an amazingly beautiful wooded area near Lake Ohrid and Samuil's stronghold. And also we will climb to the top of the Tatichev Kamen mountain where the archaeological site Kokino is about 100 meters long.</p>
+                  </div>
+                  <a class="button button-popup" href="#">buy tour now</a>
+                </div>
+                <div class="tabs__item-review review review--macedonia">
+                  <div class="review__inner">
+                    <h4 class="page__a11y-hidden">Reviews about our tours in Macedonia</h4>
+                    <p class="review__title">Reviews</p>
+                    <blockquote class="review__quote">
+                      <p class="review__text text text--fz-smallest text--color_opacity-1">I would say an unusual old building. I don't understand architecture, but climbing the mountain was very fun because people were light and lively. The beauty of nature was impressive, especially after a long hike up the mountain.</p>
+                      <div class="review__author">
+                        <picture class="review__pic">
+                          <img class="review__user-img" src="img/content/users/id102.jpg" width="38" height="38" alt="lorem">
+                        </picture>
+                        <cite class="review__author-cite">John Atle</cite>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs__item" id="Montenegro">
+                <div class="tabs__item-content">
+                  <h3 class="tabs__item-title title  title--big title--has_decor">Montenegro</h3>
+                  <div class="tabs__item-text text text--color_opacity-1">
+                    <p>Montenegro will surprise us with the largest canyon of the Tara River in Europe, which in some places reaches 1300 meters in height and does not exceed three in width. Moreover, the length of the canyon is 80 km.</p>
+                  </div>
+                  <a class="button button-popup" href="#">buy tour now</a>
+                </div>
+                <div class="tabs__item-review review review--montenegro">
+                  <div class="review__inner">
+                    <h4 class="page__a11y-hidden">Reviews about our tours in Montenegro</h4>
+                    <p class="review__title">Reviews</p>
+                    <blockquote class="review__quote">
+                      <p class="review__text text text--fz-smallest text--color_opacity-1">The canyon is of indescribable beauty! I have never seen anything more beautiful in my life, except in films :) I advise everyone</p>
+                      <div class="review__author">
+                        <picture class="review__pic">
+                          <img class="review__user-img" src="img/content/users/id103.jpg" width="38" height="38" alt="lorem">
+                        </picture>
+                        <cite class="review__author-cite">Anastasia Mei</cite>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tabs__item" id="Croatia">
+                <div class="tabs__item-content">
+                  <h3 class="tabs__item-title title  title--big title--has_decor">Croatia</h3>
+                  <div class="tabs__item-text text text--color_opacity-1">
+                    <p>In Croatia we will visit an extraordinary cave called Beredine. Its underground world will take you 80 meters deep through 5 illuminated halls decorated with amazing miraculous sculptures - stalactites and stalagmites - that have been forming for thousands and thousands of years.</p>
+                  </div>
+                  <a class="button button-popup" href="#">buy tour now</a>
+                </div>
+                <div class="tabs__item-review review review--croatia">
+                  <div class="review__inner">
+                    <h4 class="page__a11y-hidden">Reviews about our tours in Croatia</h4>
+                    <p class="review__title">Reviews</p>
+                    <blockquote class="review__quote">
+                      <p class="review__text text text--fz-smallest text--color_opacity-1">We went with the whole family, me, my wife and parents. The cave is simply unforgettable! And the fact that all this has been formed over millennia is mega unusual. Initially I could not even believe it, but natures cannot be confused with anything in the end :)</p>
+                      <div class="review__author">
+                        <picture class="review__pic">
+                          <img class="review__user-img" src="img/content/users/id104.jpg" width="38" height="38" alt="lorem">
+                        </picture>
+                        <cite class="review__author-cite">Marius Pop</cite>
+                      </div>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="prices" id="Prices">
+        <div class="container">
+          <div class="prices__inner">
+            <div class="prices__description">
+              <h2 class="prices__title title title--big title--has_decor">Prices</h2>
+              <p class="prices__text text text--color_opacity-1">Especially for you, we have developed 2 price packages with different conditions, starting from your needs and capabilities. Choose the best vacation option for yourself and relax 100%!</p>
+              <p class="prices__appeal appeal">Contact us</p>
+              <a class="prices__phone phone phone--accent phone--has_icon" href="tel:37370242411">+ 373 (70) 242 411</a>
+            </div>
+
+            <ul class="prices__packages-list packages-list">
+              <li class="packages-list__item">
+                <article class="package package--accent">
+                  <div class="package__inner">
+                    <header class="package__header">
+                      <h4 class="page__a11y-hidden">Complex package price</h4>
+                      <div class="package__header-inner">
+                        <div class="package__header-price">
+                          <p class="package__title">Complex <span class="package__title--mobile_hidden">tour</span></p>
+                          <p class="package__price">$1999 <span class="page__a11y-hidden">dollars</span></p>
+                        </div>
+                        <p class="package__text text">Check out what is included in this package</p>
+                      </div>
+                    </header>
+                    <ul class="package__benefits">
+                      <li class="package__benefit">Developed route with a group guide</li>
+                      <li class="package__benefit">Flight, transfer and hotel accommodation</li>
+                      <li class="package__benefit">Breakfasts, dinners in hotels and lunches in nature</li>
+                      <li class="package__benefit">Excursions to amazingly beautiful places in Europe</li>
+                    </ul>
+                  </div>
+                  <a class="package__button button button-popup" href="#">buy tour now</a>
+                </article>
+              </li>
+              <li class="packages-list__item">
+                <article class="package">
+                  <div class="package__inner">
+                    <header class="package__header">
+                      <h4 class="page__a11y-hidden">Economy package price</h4>
+                      <div class="package__header-inner">
+                        <div class="package__header-price">
+                          <p class="package__title">Economy </p>
+                          <p class="package__price">$1399 <span class="page__a11y-hidden">dollars</span></p>
+                        </div>
+                        <p class="package__text text">Check out what is included in this package</p>
+                      </div>
+                    </header>
+                    <ul class="package__benefits">
+                      <li class="package__benefit">Developed route with a group guide</li>
+                      <li class="package__benefit">Flight and transfer</li>
+                      <li class="package__benefit">Accommodation in hostels at hotels</li>
+                      <li class="package__benefit">Only breakfast in hotels</li>
+                      <li class="package__benefit">Excursions to amazingly beautiful places in Europe</li>
+                    </ul>
+                  </div>
+                  <a class="package__button button button-popup" href="#">buy tour now</a>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact-form">
+      <div class="container">
+        <div class="contact-form__background">
+          <div class="contact-form__inner">
+            <h2 class="contact-form__title title title--form">Do you have any questions?</h2>
+            <p class="contact-form__text text text--color-2">Leave your number or e-mail and we will contact you</p>
+            <form class="form" action="#" method="POST">
+              <div class="form__inputs">
+                <label class="label label--obligatory">
+                  <span class="page__a11y-hidden">Enter the last 8 digits of your phone number</span>
+                  <input class="form__input input text text--fz-smallest text--lh-norm text--color-2" type="tel" placeholder="+373  Enter 8 digits of the number"> <!-- need to add input mask -->
+                </label>
+
+                <label class="label">
+                  <span class="page__a11y-hidden">Enter your e-mail</span>
+                  <input class="form__input input text text--fz-smallest text--lh-norm text--color-2" type="email" placeholder="E-mail">
+                </label>
+              </div>
+
+              <button class="button" type="submit">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__box footer__box--trips">
+          <h4 class="footer__title title title--smaller">Next travels</h4>
+          <div class="footer__travel-lists">
+            <div class="footer__travel-list-box">
+              <ul class="footer__travel-list text text--fz-smallest text--lh-normal text--color_opacity-2">
+                <li class="footer__travel-item">Marseilles</li>
+                <li class="footer__travel-item">Nîmes</li>
+                <li class="footer__travel-item">Montpellier</li>
+                <li class="footer__travel-item">Barcelona</li>
+                <li class="footer__travel-item">Palm</li>
+              </ul>
+            </div>
+            <div class="footer__travel-list-box text text--fz-smallest text--lh-normal text--color_opacity-2">
+              <ul class="footer__travel-list">
+                <li class="footer__travel-item">Sardinia</li>
+                <li class="footer__travel-item">Palermo</li>
+                <li class="footer__travel-item">Catania</li>
+                <li class="footer__travel-item">Neaples</li>
+                <li class="footer__travel-item">Rome</li>
+              </ul>
+            </div>
+            <div class="footer__travel-list-box text text--fz-smallest text--lh-normal text--color_opacity-2">
+              <ul class="footer__travel-list">
+                <li class="footer__travel-item">Corsica</li>
+                <li class="footer__travel-item">Nice</li>
+                <li class="footer__travel-item">Monaco</li>
+                <li class="footer__travel-item">Digne-les-Bains</li>
+                <li class="footer__travel-item">Grenoble</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__box footer__box--contacts">
+          <h4 class="footer__title title title--smaller">Our contacts</h4>
+          <a class="footer__mail mail mail--has_icon" href="mailto:dream-travels@gmail.com">dream-travels@gmail.com</a>
+          <a class="footer__phone phone phone--font_size phone--accent phone--has_icon" href="tel:37370242411">+ 373 (70) 242 411</a>
+        </div>
+        <div class="footer__box footer__box--corporate">
+          <h4 class="footer__title title title--smaller">Corporate travel</h4>
+          <p class="footer__text text text text--fz-smallest text--color_opacity-2">You can also order an individual trip for your company. Such tours bring the company together very much, help to maintain the corporate spirit, and are also a great pastime.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- The buttons that call popups are marked with the class button-popup -->
+  <div class="page__overlay"> <!-- page__overlay--visible -->
+    <section class="modal"> <!-- modal--show -->
+      <div class="container">
+        <div class="modal__inner">
+          <div class="modal__content">
+            <h3 class="modal__title title title--form title--modal">Buy a tour</h3>
+            <form class="modal__form form" action="#" method="POST">
+              <div class="form__inputs form__inputs--layout">
+                <label class="label label--obligatory">
+                  <span class="page__a11y-hidden">Enter the last 8 digits of your phone number</span>
+                  <input class="form__input input" type="tel" placeholder="+373 Enter 8 digits of the number"> <!-- need to add input mask -->
+                </label>
+  
+                <label class="label">
+                  <span class="page__a11y-hidden">Enter your e-mail</span>
+                  <input class="form__input input" type="email" placeholder="E-mail">
+                </label>
+              </div>
+  
+              <button class="modal__button button" type="submit">send</button>
+            </form>
+            <button class="modal__close-btn"><span class="page__a11y-hidden">Close popup</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/simplebar@5.3.6/dist/simplebar.min.js"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>

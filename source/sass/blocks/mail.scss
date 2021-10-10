@@ -1,0 +1,24 @@
+.mail {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--accent);
+  text-decoration: none;
+
+  &--has_icon {
+    padding-left: 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 26px;
+      height: 20px;
+      mask-image: url("../../img/stack.svg#mail");
+      mask-repeat: no-repeat;
+      background-color: var(--grey-3);
+      left: 0;
+    }
+  }
+}

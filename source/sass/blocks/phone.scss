@@ -1,0 +1,38 @@
+.phone {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(32 / 18);
+  color: var(--font-color3);
+
+  &--accent {
+    color: var(--accent);
+    display: inline;
+    display: block;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      text-align: left;
+    }
+  }
+
+  &--font_size {
+    font-size: 16px;
+  }
+
+  &--has_icon {
+    padding-left: 40px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      mask-image: url("../../img/stack.svg#phone");
+      mask-repeat: no-repeat;
+      background-color: var(--grey-3);
+      left: 0;
+    }
+  }
+}

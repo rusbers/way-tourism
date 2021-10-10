@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  // padding-top: 18px;
+  // padding-bottom: 15px;
+
+  @media (min-width: 1200px) {
+    margin-right: auto;
+    flex-shrink: 0;
+  }
+}

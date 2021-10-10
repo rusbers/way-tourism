@@ -1,0 +1,71 @@
+.js-enabled .menu-toggle {
+  display: block;
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.menu-toggle {
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  background: var(--accent);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 25;
+}
+
+.menu-toggle__line {
+  width: 23px;
+  height: 1px;
+  background-color: var(--grey);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 23px;
+    height: 1px;
+    background-color: var(--grey);
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+
+  &::after {
+    content: "";
+    width: 23px;
+    height: 1px;
+    background-color: var(--grey);
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+}
+
+.menu-toggle--opened {
+  background-color: transparent;
+
+  & .menu-toggle__line, .menu-toggle__line::before, .menu-toggle__line::after {
+    width: 32px;
+  }
+
+  & .menu-toggle__line::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  & .menu-toggle__line::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  & .menu-toggle__line {
+    height  : 0;
+  }
+}

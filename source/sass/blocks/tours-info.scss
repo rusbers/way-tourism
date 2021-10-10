@@ -1,0 +1,12 @@
+.tours-info {
+  @media (min-width: 1200px) {
+    background-image: url("../../img/background/tours-info/tours-info-bg@1x.png");
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    background-size: contain;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/background/tours-info/tours-info-bg@2x.png");
+    }
+  }
+}
